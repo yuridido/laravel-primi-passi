@@ -1,4 +1,31 @@
-body {
-  background-color: #000;
+header {
+  text-align: center;
+  color: #002D75;
+}
+
+header ul {
+  list-style: none;
+}
+
+header ul li {
+  display: inline-block;
+  padding: 20px;
+  font-size: 30px;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header a:visited {
+  color: #002D75;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+main {
+  background-color: #96875D;
 }
 

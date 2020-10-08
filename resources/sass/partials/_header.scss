@@ -1,0 +1,17 @@
+header {
+    text-align: center;
+    color: $blu;
+    & img {
+    }
+    & ul {
+        list-style: none;
+        & li {
+            display: inline-block;
+            padding: 20px;
+            font-size: 30px;
+
+        }
+
+    }
+    @include collegamenti;
+}

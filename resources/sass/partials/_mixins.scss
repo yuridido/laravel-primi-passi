@@ -1,0 +1,12 @@
+@mixin collegamenti {
+    a{
+        text-decoration: none;
+        &:visited {
+            color: $blu;
+        }
+        &:hover {
+            text-decoration: underline;
+        }
+
+    }
+}
