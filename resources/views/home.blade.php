@@ -8,7 +8,7 @@
         <title></title>
     </head>
     <body>
-        @include ('partials.header');
+        @include ('partials.header')
 
     </body>
 </html>

@@ -1,3 +1,8 @@
+@include('partials.database')
+@php
+    dd($lunghe);
+@endphp
+
 
 
 <!DOCTYPE html>
@@ -8,7 +13,30 @@
         <title></title>
     </head>
     <body>
-        @include ('partials.header');
+        @include ('partials.header')
+        <main>
+            <div class="container">
+                <div class="cards">
+                    <h2>Le Lunghe</h2>
+                    @foreach ($lunghe as $tipo)
+                        <div class="card">
+                            <img src="{{$tipo['src']}}" alt="{{$tipo['titolo']}}">
+                        </div>
+                    @endforeach
+                </div>
+                <div class="cards">
+                    <h2>Le Corte</h2>
 
+                </div>
+                <div class="cards">
+                    <h2>Le Cortissime</h2>
+
+                </div>
+
+
+
+
+            </div>
+        </main>
     </body>
 </html>
