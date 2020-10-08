@@ -1,3 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 header {
   text-align: center;
   color: #002D75;
@@ -26,6 +38,34 @@ header a:hover {
 }
 
 main {
-  background-color: #96875D;
+  background-color: #9687A8;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.cards {
+  margin: 0 auto;
+}
+
+.cards img {
+  width: 100%;
+}
+
+.card {
+  float: left;
+  width: 30%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin: 10px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+  color: #FFF;
+  padding-top: 30px;
 }
 
