@@ -51,3 +51,9 @@ foreach ($cards as $card) {
         </div>
     </div>
 @endsection
+
+@section('aggiunta')
+    @parent
+    <p>visibile solo in prodotti</p>
+
+@endsection

@@ -4,15 +4,11 @@ header {
     color: $blu;
     text-align: center;
     border-bottom: 1px solid $blu;
-    // position:fixed;
-    // top: 0;
 
     img {
     }
     ul {
         list-style: none;
-        position: sticky;
-        top:0;
         li {
             display: inline-block;
             padding: 20px;
@@ -22,7 +18,8 @@ header {
 
     }
     .active {
-        background-color: $blu;
+        background-color: $rosso;
+        border-radius: 50%;
         color: $bianco;
     }
 

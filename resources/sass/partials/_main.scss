@@ -1,5 +1,7 @@
 main {
+    min-height: calc(100vh - 300px);
     background-color: $sfondo;
+    text-align: center;
     // margin-top: 250px;
 }
 
@@ -7,4 +9,8 @@ main {
     width: 90%;
     margin: 0 auto;
 
+}
+
+#pasta {
+    height: 600px;
 }

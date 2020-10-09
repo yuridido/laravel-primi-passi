@@ -10,5 +10,19 @@
         <main>
             @yield('main')
         </main>
+
+        <footer>
+            @section('foot')
+                <div>
+                    <img src="" alt="">
+                    <ul>
+                        <li>prova</li>
+                        <li>prova</li>
+                        <li>prova</li>
+                    </ul>
+                </div>
+                @yield('aggiunta')
+            @show
+        </footer>
     </body>
 </html>
