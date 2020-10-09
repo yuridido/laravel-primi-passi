@@ -11,12 +11,18 @@
 }
 
 header {
-  text-align: center;
+  height: 230px;
+  width: 100%;
   color: #002D75;
+  text-align: center;
+  border-bottom: 1px solid #002D75;
 }
 
 header ul {
   list-style: none;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 header ul li {
@@ -25,11 +31,13 @@ header ul li {
   font-size: 30px;
 }
 
-header a {
-  text-decoration: none;
+header .active {
+  background-color: #002D75;
+  color: #FFF;
 }
 
-header a:visited {
+header a {
+  text-decoration: none;
   color: #002D75;
 }
 
@@ -60,6 +68,11 @@ main {
   -o-object-fit: contain;
      object-fit: contain;
   margin: 10px;
+  transition: 0.5s;
+}
+
+.card:hover {
+  transform: scale(1.1);
 }
 
 h2 {

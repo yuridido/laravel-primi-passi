@@ -1,11 +1,19 @@
 header {
-    text-align: center;
+    height: 230px;
+    width: 100%;
     color: $blu;
-    & img {
+    text-align: center;
+    border-bottom: 1px solid $blu;
+    // position:fixed;
+    // top: 0;
+
+    img {
     }
-    & ul {
+    ul {
         list-style: none;
-        & li {
+        position: sticky;
+        top:0;
+        li {
             display: inline-block;
             padding: 20px;
             font-size: 30px;
@@ -13,5 +21,11 @@ header {
         }
 
     }
+    .active {
+        background-color: $blu;
+        color: $bianco;
+    }
+
+
     @include collegamenti;
 }
